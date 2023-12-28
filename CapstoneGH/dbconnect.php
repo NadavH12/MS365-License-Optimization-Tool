@@ -10,7 +10,7 @@ echo "<br><br>";
 
 
 try {
-    $conn = new PDO("sqlsrv:server = *********; Database = ******", "**********", "********");
+    $conn = new PDO("sqlsrv:server = *********; Database = ******", "**********", "*******");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
